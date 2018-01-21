@@ -1,0 +1,7 @@
+C:\Users\Martin\stack\Privé\C\C#\Projects\Evilwood Development Studio's\CoffeeRandomizerCONSOLE\CoffeeRandomizerConsole\CoffeeRandomizerConsole\obj\Debug\CoffeeRandomizerConsole.csprojResolveAssemblyReference.cache
+C:\Users\Martin\stack\Privé\C\C#\Projects\Evilwood Development Studio's\CoffeeRandomizerCONSOLE\CoffeeRandomizerConsole\CoffeeRandomizerConsole\obj\Debug\CoffeeRandomizerConsole.csproj.CoreCompileInputs.cache
+C:\Users\Martin\stack\Privé\C\C#\Projects\Evilwood Development Studio's\CoffeeRandomizerCONSOLE\CoffeeRandomizerConsole\CoffeeRandomizerConsole\bin\Debug\CoffeeRandomizerConsole.exe.config
+C:\Users\Martin\stack\Privé\C\C#\Projects\Evilwood Development Studio's\CoffeeRandomizerCONSOLE\CoffeeRandomizerConsole\CoffeeRandomizerConsole\bin\Debug\CoffeeRandomizerConsole.exe
+C:\Users\Martin\stack\Privé\C\C#\Projects\Evilwood Development Studio's\CoffeeRandomizerCONSOLE\CoffeeRandomizerConsole\CoffeeRandomizerConsole\bin\Debug\CoffeeRandomizerConsole.pdb
+C:\Users\Martin\stack\Privé\C\C#\Projects\Evilwood Development Studio's\CoffeeRandomizerCONSOLE\CoffeeRandomizerConsole\CoffeeRandomizerConsole\obj\Debug\CoffeeRandomizerConsole.exe
+C:\Users\Martin\stack\Privé\C\C#\Projects\Evilwood Development Studio's\CoffeeRandomizerCONSOLE\CoffeeRandomizerConsole\CoffeeRandomizerConsole\obj\Debug\CoffeeRandomizerConsole.pdb
