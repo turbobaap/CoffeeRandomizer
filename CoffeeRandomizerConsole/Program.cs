@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -36,7 +37,7 @@ namespace CoffeeRandomizerConsole
             }
             else if (result == "2")
             {
-                List();
+                PeopleList();
                 return true;
             }
             else if (result == "3")
@@ -52,15 +53,31 @@ namespace CoffeeRandomizerConsole
         //Randomizer
         static void RandomMize()
         {
-            Console.WriteLine("Hier komt de Randomizer");
+            //hier staat randomizing in binair
+            Console.WriteLine("01010010 01100001 01101110 01100100 01101111 01101101 01101001 01110011 01101001 01101110 01100111");
+
+            //PeopleList Uitlezen, en random output genereren vanuit PeopleList... 
+            
+          
+
+            Console.WriteLine();
             Console.ReadLine();
         }
 
 
         //lijst met mensen
-        static void List()
+        static void PeopleList()
         {
-            Console.WriteLine("Hier komt de Lijst!");
+            Console.WriteLine("Lijst met mogelijke doelwitten: ");
+            // CSV File import
+            TextReader csv = File.OpenText(@"\\locationofcsvFile.csv");
+            // ff csv naar string frotten
+           string getCoffee = csv.ReadLine();
+
+            // even kijken om de waardes vanuit CSV in een ArrayList te proppen.
+
+            //output van string getCoffee
+            Console.WriteLine(getCoffee);
             Console.ReadLine();
         }
 
