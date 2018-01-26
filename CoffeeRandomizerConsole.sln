@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeRandomizerConsole", "CoffeeRandomizerConsole\CoffeeRandomizerConsole.csproj", "{AAB3477E-6294-482F-8297-2ECAEF32FD8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D0B7539C-4AA9-42EB-B3C3-A5D21304A952}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
