@@ -7,8 +7,11 @@ using System.Threading.Tasks;
 
 namespace CoffeeRandomizerConsole
 {
+
     class Program
     {
+       // List<string> listPeople = new List<string>();
+
         static void Main(string[] args)
         {
             bool displayMenu = true;
@@ -29,15 +32,15 @@ namespace CoffeeRandomizerConsole
             string result = Console.ReadLine();
 
             //Acties Om te kiezen:
-                 
+
             if (result == "1")
             {
-                RandomMize();
+                RandomMize(); 
                 return true;
             }
             else if (result == "2")
             {
-                PeopleList();
+                mensenLijst();
                 return true;
             }
             else if (result == "3")
@@ -50,37 +53,38 @@ namespace CoffeeRandomizerConsole
             }
         }
 
-        //Randomizer
+
         static void RandomMize()
         {
             //hier staat randomizing in binair
             Console.WriteLine("01010010 01100001 01101110 01100100 01101111 01101101 01101001 01110011 01101001 01101110 01100111");
-
             //PeopleList Uitlezen, en random output genereren vanuit PeopleList... 
-            
-          
-
-            Console.WriteLine();
-            Console.ReadLine();
+            //public Random rnd = new Random();
+            //string randomNumber = rnd.Next(listPeople.Count);
         }
 
 
-        //lijst met mensen
-        static void PeopleList()
+
+
+
+        static void mensenLijst()
         {
             Console.WriteLine("Lijst met mogelijke doelwitten: ");
             // CSV File import
-            TextReader csv = File.OpenText(@"\\locationofcsvFile.csv");
-            // ff csv naar string frotten
-           string getCoffee = csv.ReadLine();
-
-            // even kijken om de waardes vanuit CSV in een ArrayList te proppen.
-
-            //output van string getCoffee
-            Console.WriteLine(getCoffee);
-            Console.ReadLine();
+            string csv = @"C:\Users\qynmt\stack\Privé\C\C#\Projects\Evilwood Development Studio's\CoffeeRandomizerCONSOLE\CoffeeRandomizerConsole\Randomizer.csv";
+            // Lijst van CSV file maken.
+            using (var reader = new StreamReader(csv))
+                List<string> listPeople = new List<string>();
+                while (!reader.EndOfStream)
+                {
+                    var People = reader.ReadLine();
+                    Console.WriteLine(People);
+                    var delimiter = People.Split(';');
+                }
         }
 
-
-    }
+    } 
 }
+
+
+   
